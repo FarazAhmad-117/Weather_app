@@ -56,7 +56,7 @@
             const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city? city : 'Islamabad'}&appid=${apiKey}&units=metric`;
             const response = await fetch(apiUrl);
             let data = await response.json();
-            console.log(data);
+            // console.log(data);
             if(data.name==undefined){
                 error.style.display = 'block';
                 return;
