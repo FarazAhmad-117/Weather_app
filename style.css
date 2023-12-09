@@ -7,7 +7,10 @@
 
 
 body{
-    background-color: #222;
+    /* background-color: #222; */
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#222,#222,#222,#222,#222,#242424,#555,#888,#555,#242424,#222,#222,#222,#222,#222);
 }
 
 .card{
@@ -102,7 +105,7 @@ body{
 
 @media screen and (max-width:470px) {
     .card{
-        width: 95%;
+        width: 80%;
         padding: 40px 0px;
         margin: 50px auto;
     }
